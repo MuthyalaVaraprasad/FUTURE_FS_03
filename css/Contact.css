@@ -466,3 +466,25 @@ footer{
   .main-content .box{
     margin: 5px 0;
   }
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #b21919;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  z-index: 1000;
+  border: none;
+  cursor: pointer;
+}
+.back-btn:hover {
+  background: #e02424;
+  color: #fff !important;
+}
